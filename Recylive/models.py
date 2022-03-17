@@ -7,7 +7,7 @@ class Residente(models.Model):
     apartamento = models.CharField(max_length=50)
     cedula = models.IntegerField()
     telefono = models.IntegerField()
-    puntos = models.IntegerField()
+    puntos = models.IntegerField(blank=True)
     
 
 
