@@ -19,5 +19,6 @@ from Recylive import views as Recylive
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',Recylive.home)
+    path('',Recylive.home),
+    path('about/',Recylive.about),
 ]

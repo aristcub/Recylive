@@ -5,4 +5,15 @@
 <div class="container">
 <h1>Welcome to Home Page this is:  {{ name }}</h1>
 <h2>This is the full home page</h2>
+<form action=""> 
+    <div class="mb-3"> 
+        <label for="searchResident" class="form-label"> 
+            Search for Resident: 
+        </label> 
+        <input type="text" class="form-control" name="searchResident" /> 
+    </div> 
+    <button type="submit" class="btn btn-primary">Search</button> 
+</form>
+Searching for: {{ searchTerm }}
 </div>
+
