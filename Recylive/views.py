@@ -6,3 +6,21 @@ def home(request):
 
 def about(request):
     return
+
+# (1) conexion con thingspeak
+
+
+# (2) logica para asignar los puntos
+def asignarPuntos(puntos):
+    
+
+
+    return 
+
+
+
+# (4) reclamar recompensa
+def redimir():
+    return 
+
+# (5) visualizar
