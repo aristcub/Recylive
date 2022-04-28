@@ -8,6 +8,8 @@ class Residente(models.Model):
     cedula = models.IntegerField()
     telefono = models.IntegerField()
     puntos = models.IntegerField(blank=True)
+
+# (3) modelo de premios
     
 
 
